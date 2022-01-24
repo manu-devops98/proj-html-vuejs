@@ -9,9 +9,11 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons'
 import { faMinusCircle } from '@fortawesome/free-solid-svg-icons'
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faChevronDown, faShoppingCart, faUserCircle, faSearch, faDownload, faArrowRight, faPlusCircle,faMinusCircle)
+library.add(faChevronDown, faShoppingCart, faUserCircle, faSearch, faDownload, faArrowRight, faPlusCircle,faMinusCircle, faFileAlt, faUser)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
