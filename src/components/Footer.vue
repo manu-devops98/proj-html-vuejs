@@ -1,5 +1,7 @@
 <template>
-  <footer></footer>
+  <footer>
+    <!-- FOOTER STATICO POI DINAMICO CON JS  -->
+  </footer>
 </template>
 
 <script>
