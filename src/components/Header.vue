@@ -59,19 +59,20 @@
             id="searchInput"
             placeholder="Search..."
           />
-          <!-- <div class="icon">
-            <font-awesome-icon icon="search" />
-          </div> -->
         </div>
       </div>
     </div>
-    <!-- aggiunta componente jumbotron  -->
+    <Jumbotron />
   </header>
 </template>
 
 <script>
+import Jumbotron from "./Jumbotron.vue";
 export default {
   name: "Header",
+  components: {
+    Jumbotron,
+  },
 };
 </script>
 
@@ -79,11 +80,9 @@ export default {
 @import "../assets/scss/style.scss";
 header {
   background-color: $galleryColor;
-  font-family: "Outfit", sans-serif !important;
   font-weight: 300;
   .container-logo {
     width: 15%;
-    // background-color: red;
   }
   .container-link {
     width: 70%;
