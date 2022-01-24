@@ -684,6 +684,10 @@ main {
         color: white;
         padding: 0.5em 2em;
         margin-top: 2em;
+        transition: 0.5s ease;
+        &:hover {
+          background-color: $wineColor;
+        }
       }
     }
   }
