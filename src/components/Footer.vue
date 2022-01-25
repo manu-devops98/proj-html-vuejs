@@ -6,9 +6,13 @@
         <div class="col-6">
           <h3>Address</h3>
           <ul class="list-unstyled">
-            <li>382 NE 191st St # 87394 Miami, FL 33179-3899</li>
-            <li>+1 (305) 547-9909 (9am -5pm EST, Monday - Friday)</li>
-            <li>support@maxcoach.com</li>
+            <li>
+              <a href="">382 NE 191st St # 87394 Miami, FL 33179-3899</a>
+            </li>
+            <li>
+              <a href="">+1 (305) 547-9909 (9am -5pm EST, Monday - Friday)</a>
+            </li>
+            <li><a href="">support@maxcoach.com</a></li>
             <li>
               <div class="icon d-flex">
                 <font-awesome-icon class="brand" :icon="['fab', 'facebook']" />
@@ -24,16 +28,16 @@
           <div class="container-list d-flex">
             <div class="col-left w-50">
               <ul class="list-unstyled">
-                <li>Start theme</li>
-                <li>Blog</li>
-                <li>About us</li>
+                <li><a href="">Start theme</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About us</a></li>
               </ul>
             </div>
             <div class="col-right w-50">
               <ul class="list-unstyled">
-                <li>Success story</li>
-                <li>Courses</li>
-                <li>Contact us</li>
+                <li><a href="">Success story</a></li>
+                <li><a href="">Courses</a></li>
+                <li><a href="">Contact us</a></li>
               </ul>
             </div>
           </div>
@@ -41,10 +45,10 @@
         <div class="col-2">
           <h3>Information</h3>
           <ul class="list-unstyled">
-            <li>Membership</li>
-            <li>Purchase guide</li>
-            <li>Privacy policy</li>
-            <li>Terms of services</li>
+            <li><a href="">Membership</a></li>
+            <li><a href="">Purchase guide</a></li>
+            <li><a href="">Privacy policy</a></li>
+            <li><a href="">Terms of services</a></li>
           </ul>
         </div>
       </div>
@@ -76,13 +80,21 @@ footer {
           font-weight: bold;
         }
         li {
-          margin-bottom: 0.7em;
-          font-size: 0.8em;
-          color: $oslograyColor;
+          a {
+            margin-bottom: 0.7em;
+            font-size: 0.8em;
+            color: $oslograyColor;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
           .icon {
             margin-top: 1.5em;
             .brand {
               font-size: 1.5em;
+              color: $oslograyColor;
               margin-right: 1em;
             }
           }
@@ -96,9 +108,16 @@ footer {
           font-weight: bold;
         }
         li {
-          margin-bottom: 0.7em;
-          font-size: 0.8em;
-          color: $oslograyColor;
+          a {
+            margin-bottom: 0.7em;
+            font-size: 0.8em;
+            color: $oslograyColor;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
         }
       }
     }
@@ -115,6 +134,9 @@ footer {
     position: absolute;
     bottom: 20px;
     right: 20px;
+    &:hover {
+      background-color: $wineColor;
+    }
     a {
       font-size: 1.2em;
       color: white;
