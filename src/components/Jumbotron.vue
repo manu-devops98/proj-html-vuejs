@@ -11,7 +11,7 @@
           </h1>
           <p class="mb-4">
             Learn any coding program in distance and for a reasonable fee. You
-            don't have to struggle alone,you've got our assistance and help.
+            don't have to struggle alone, you've got our assistance and help.
           </p>
           <button type="button" class="btn">
             <span class="mx-2"><font-awesome-icon icon="download" /></span>

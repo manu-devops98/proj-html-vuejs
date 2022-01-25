@@ -1,7 +1,7 @@
 <template>
   <header>
     <!-- navbar inizialmente statica poi con js -->
-    <div class="navbar">
+    <div class="navbar" id="navbar">
       <!-- logo  -->
       <div class="container-70 d-flex justify-content-start align-items-center">
         <div class="container-logo">
