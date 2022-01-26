@@ -73,6 +73,9 @@ export default {
   components: {
     Jumbotron,
   },
+  methods: {
+    header: [],
+  },
 };
 </script>
 
