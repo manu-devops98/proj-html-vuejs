@@ -50,7 +50,7 @@
       <h3 class="text-center">2020 Maxcoach. All Rights Reserved</h3>
     </div>
     <button type="button" class="btn">
-      <a href="navbar" class="mx-2"><font-awesome-icon icon="arrow-up" /></a>
+      <a href="#navbar" class="mx-2"><font-awesome-icon icon="arrow-up" /></a>
     </button>
   </footer>
 </template>
