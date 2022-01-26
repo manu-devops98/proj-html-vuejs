@@ -261,9 +261,12 @@ export default {
         border: none;
         margin: 0 10px 10px 10px;
         cursor: pointer;
+        position: relative;
+        z-index: 2;
         &:hover {
           background-color: $whiteColor;
-          box-shadow: 10px 10px 10px lightgrey;
+          box-shadow: 10px 10px 10px $oslograyColor;
+          z-index: 10;
         }
         .container-image {
           position: relative;

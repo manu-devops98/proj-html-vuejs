@@ -29,6 +29,17 @@
         </div>
       </div>
     </div>
+    <div
+      class="navbar-right d-flex flex-column justify-content-center align-items-center"
+    >
+      <img class="icon" src="../../assets/img/school_triangle.png" alt="" />
+
+      <img class="icon" src="../../assets/img/life_buoy.png" alt="" />
+
+      <img class="icon" src="../../assets/img/book_closed.png" alt="" />
+
+      <img class="icon" src="../../assets/img/cart_icon.png" alt="" />
+    </div>
   </div>
 </template>
 
@@ -45,6 +56,22 @@ export default {
   color: $wineColor;
   width: 100%;
   position: relative;
+  .navbar-right {
+    background-color: white;
+    position: fixed;
+    top: 20%;
+    right: 0;
+    transform: translateY(-20%);
+    width: 30px;
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px $oslograyColor;
+    .icon {
+      margin: 0.7em 0;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
   .container-img {
     width: 100%;
     height: 65%;
