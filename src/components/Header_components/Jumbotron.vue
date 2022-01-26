@@ -1,7 +1,7 @@
 <template>
   <div class="jumbotron py-5">
     <div class="container-img">
-      <img src="../assets/img/jumbo-overlay.svg" alt="" />
+      <img src="../../assets/img/jumbo-overlay.svg" alt="" />
     </div>
     <div class="container-70 d-flex">
       <div class="row row-cols-2">
@@ -22,7 +22,7 @@
           <div class="img">
             <img
               class="w-75"
-              src="../assets/img/home-5-hero-image.png"
+              src="../../assets/img/home-5-hero-image.png"
               alt=""
             />
           </div>
@@ -39,7 +39,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/scss/style.scss";
+@import "../../assets/scss/style.scss";
 .jumbotron {
   background-color: $galleryColor;
   color: $wineColor;
